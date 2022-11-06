@@ -1,13 +1,11 @@
+/*
+Copyright © 2022 NAME HERE <EMAIL ADDRESS>
+
+*/
 package main
 
-import (
-	_ "github.com/mattn/go-sqlite3"
-)
+import "github.com/rodrigotamura/arch-hexagonal/cmd"
 
 func main() {
-	/*
-		db, _ := sql.Open("sqlite3", "sqlite.db")
-		productDbAdapter := db2.NewProductDb(db)
-		productService := application.NewProductservice(productDbAdapter)
-	*/
+	cmd.Execute()
 }
