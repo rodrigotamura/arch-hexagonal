@@ -1,5 +1,8 @@
-# arch-hexagonal
-A Golang project with Hexagonal Arch.
+# Arch-hexagonal
+A Golang sample project with Hexagonal Arch.
+
+![Hexagonal Arch](/docs/hax_diagram.png "Diagram of this project")
+
 Using [Cobra-cli](https://github.com/spf13/cobra)
 
 # Input adapter: CLI interface
